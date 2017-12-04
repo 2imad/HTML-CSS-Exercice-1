@@ -1,0 +1,33 @@
+html{
+  
+  background-color:#FF6114;
+  animation-name: change;
+  animation-duration:3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  }
+  @keyframes change {
+    0% {background-color:#FF6114}
+    25%{background-color:#FF2000}
+    50%{background-color:#FF9463}
+    75%{background-color:#8DE500}
+    100%{background-color:#8DE500}
+  }
+  img{
+    height:400px;
+    width: 400px;
+    position: relative;
+    border-radius: 30%;
+    animation-name: move;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes move {
+    0%{left:0px;top:0px}
+    25%{left: 200px;top: 0px}
+    50%{left: 200px;top:200px}
+    75%{left:0px;top:200px}
+    100{left: 0px;top: 0px}
+    }
